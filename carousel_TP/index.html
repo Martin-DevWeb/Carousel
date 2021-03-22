@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Carousel</title>
+  <link rel="stylesheet" href="css/carousel.css">
+</head>
+<body>
+  <div class="gallery">
+    <div class="gallery-container">
+      <img id="c_n" class="gallery-item" src="images/christopher_nolan.jpg">
+      <img id="d_c" class="gallery-item" src="images/damien_chazelle.jpg">
+      <img id="q_t" class="gallery-item" src="images/quentin-tarantino.jpg">
+      <img id="p_j" class="gallery-item" src="images/peter_jackson.png">
+      <img id="g_l" class="gallery-item" src="images/george_lucas.jpg">
+    </div>
+    <div class="gallery-controls"></div>
+  </div>
+
+
+
+
+  <div class="container">
+    <div class="button" onclick="shiftRight()"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
+    <div class="cards-wrapper">
+        <ul class="cards__container">
+            <li id="box1" class="box"></li>
+            <li id="box2" class="box"></li>
+            <li id="box3" class="box"></li>
+            <li id="box4" class="box"></li>
+            <li id="box5" class="box"></li>
+            <li id="box6" class="box box--hide"></li>
+            <li id="box7" class="box box--hide"></li>
+        </ul>
+        <div class="card__text-content">
+            <h3 class="card__title">Filmographie</h3>
+            <div class="card__summary">Découvrez ou re-découvrez un film de votre réalisateur préféré !</div>
+        </div>
+    </div>
+    <div class="button" onclick="shiftLeft()"><img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt=""></div>
+</div>
+
+
+
+
+  <script src="js/carousel.js"></script>
+
+</body>
+</html>
